@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+header {
+  height: 80px;
+  background-color: #ffffff;
+}
+
+#header-container {
+  width: 80%;
+  margin: auto
+}
+
+.col-3 {
+  background-color: red;
+  width:33%;
+  float: left;
+}

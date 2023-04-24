@@ -1,0 +1,23 @@
+All tags used are explained header
+
+1. Section tag - Helps define section in a document , helps 
+divides the content into section and subsections.
+
+2. Nav tag - defines the navigational links.
+Note! -  not all links of a document should be inside a <nav> element. The <nav> element is intended for a major block of navigation links.It is a semnatic element.
+
+3. A semantic element describes its meaning to both the browser and the developer.Ex of nonsemantic elements are <div> and <span> tells nothing about the its content.
+
+4. Div tag - defines a division or a section in an HTML doc.
+It is used as a container for the HTML elements which is then styled with CSS or manipulated with JS.
+
+5.Style tag - used for styling or for adding css 
+
+6.CSS/text decoration - this propeety specifies the decoration added to tex, and is a shorthand property for :
+ a.text-decoration-line(required)
+ b.text-decoration-color
+ c.text-decoration-style
+ d.text-decoration-thickness
+ 
+
+7.CSS/display - specifies the display behaviour of an element. This property consist of many attributes like few them are none, inline, block, inline-block etc do check reference.

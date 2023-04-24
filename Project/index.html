@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    My first landing page
+  </title>
+  <!-- <link rel="spreadsheet" type="text/css"  href="pgstyle.css"> -->
+  <style>
+    html{
+      font-family: "helvetica neue","Arial",sans-serif;
+    }
+    body {
+  background-color: black;
+  margin: 0;
+}
+header {
+  height: 80px;
+  background-color: #ffffff;
+}
+
+#header-container {
+  width: 75%;
+  margin: auto
+}
+
+.col-3 {
+  
+  width: 33%;
+  float: left;
+}
+
+.logo{
+  padding-top: 30px;
+}
+
+.menu {
+  margin-top: 32px;
+  
+
+}
+.menu li{
+  list-style-type: none;
+  display: inline;
+  font-size: .85em;
+  color: #8e8e8e;
+  padding-right: 24px;
+
+}
+
+.getstartedbtn{
+  background-color: #6dc77a;
+  border-radius: 28px;
+  -moz-border-radius:28px; 
+  /* This is for theolder version of firefox, chrome and safari etc */
+  -webkit-border-radius:28px;
+  text-decoration:none;
+  color:#ffffff;
+  padding: 10px 26px; 
+  /* this is good way to shorten ur code by using top and left padding in one attribute itself here 10px denotes topandbottom and 26 leftnright padding */
+  margin-top:20px;
+  /* display:inline-block; */
+  font-size:17px;
+  float: right; 
+}
+
+#top-section-main{
+  background-image: url(friends.jpg);
+  height: 740px;
+  border: none;
+}
+
+#top-section-content{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0;
+
+}
+
+#top-section-content h1{
+  font-size:4em;
+  font-weight:300;  /*this makes it looks thinner or thicker */
+  color:#ffffff;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 15;
+
+
+}
+#top-section-content p{
+  font-size:1.3em;
+  font-weight:400;  /*this makes it looks thinner or thicker */
+  color:#ffffff;
+  text-align: center;
+  
+
+}
+
+.play-button{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 50px 0 110px 0 ;
+}
+
+.main-form h6{
+  font-family: sans-serif;
+  font-size: .9em;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main-form input{
+  margin: 0;
+  width: 30%;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  font-weight: 100;
+  border: none;
+}
+
+.main-form button{
+  width: 30%;
+  height: 42px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  font-weight: 100;
+  background-color: #6dc77a;
+  color: #ffffff;
+  border: none;
+}
+
+
+
+/* above we have applies styling to each li child element with style  */
+  </style>
+</head>
+
+<body>
+  <header>
+    <!--So here we have three div becoz we hv 3 section/division one for logo , one for nav links and one for get started button-->
+    <div id="header-container">
+      <!--this is div will run from logo till button in the header-->
+
+      <div class="col-3">
+        <img class="logo" src="logo-dark.png" width="143" height="18">
+        <!--height and width were measured previously-->
+      </div>
+      <div class="col-3">
+        <nav>
+          <ul class="menu">
+            <li>Home</li>
+            <li>features</li>
+            <li>About</li>
+            <li>Signup</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-3">
+        <a href="#" class="getstartedbtn">Get Started</a>
+      </div>
+    </div>
+    <!--Header container ends here-->
+
+  </header>
+  <!--We will be using six section tag as we have a total og six section on our page-->
+  <div class="main-container">
+    <div id="top-section-main">
+      <div id="top-section-content">
+        <h1>Awesome looks so good</h1>
+        <p> Awesome is the landing page you wish you had when you started.</p>
+        <img class="play-button" src="play.png" alt="play button" height="120px" width="120px">
+
+        <div class="main-form">
+          <form>
+            <h6>SIGN UP FOR FREE 30 DAY TRIAL</h6> 
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <!--<button style="trial" type="submit" value="submit">Start Free Trial</button>-->
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div> <!--End main-container>
+  <section></section>
+  <section></section>
+  <section></section>
+  <section></section>
+  <section></section>
+  <section></section>
+  <footer></footer> -->
+
+
+</body>
+
+</html>
