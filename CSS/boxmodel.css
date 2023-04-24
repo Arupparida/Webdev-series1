@@ -1,0 +1,27 @@
+/* #div-one {
+  background-color: black;
+  height:200px;
+
+}
+/* without height property it will show nothing for all the div id prresent here becoz without content in the div it will take default height as 0 * so we have put a height
+#div-two{
+  background-color: red;
+  height: 100px;
+}
+#div-three{
+  background-color: blue;
+  height: 100px;
+} */
+
+#div-four{
+  background-color: black;
+  color: #ffffff;
+  /*padding: 200px;*/
+  padding: 100px 100px 100px 0px;
+  border-style: solid;
+  border-width: 50px;
+  border-color: red;
+  margin: 200px;
+}
+
+/* Pls make sure that the name of the id is same on both pages html and css*/
