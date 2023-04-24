@@ -1,0 +1,8 @@
+FEW question to prepare
+
+Q1. Difference between html and html5
+Ans Basic difference is addition of new tags like nav,asie,section,article header, footer.
+
+Q2. Difference between span and div
+Q3. Difference between inline and block element
+
